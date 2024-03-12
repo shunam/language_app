@@ -1,0 +1,10 @@
+de:
+    hello: 'Hallo Welt'
+    web_1:
+        error_name: 'Der Name darf nicht leer sein'
+    select:
+        - 'Option Null'
+        - 'Option eins'
+    dashboard:
+        index:
+            lazy: 'Faule Ladung'
