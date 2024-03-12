@@ -1,0 +1,10 @@
+en:
+    hello: 'Hello world'
+    web_1:
+        error_name: 'Name can''t be blank'
+    select:
+        - 'Option zero'
+        - 'option one'
+    dashboard:
+        index:
+            lazy: 'Lazy Load'
