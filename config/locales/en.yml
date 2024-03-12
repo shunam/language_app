@@ -9,3 +9,4 @@ en:
     dashboard:
         index:
             lazy: 'Lazy Load'
+            interpolation: '%{text} is interpolated'
