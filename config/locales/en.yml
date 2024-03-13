@@ -1,12 +1,13 @@
+---
 en:
-    hello: 'Hello world'
-    web_1:
-        error_name: 'Name can''t be blank'
-    select:
-        - 'Option zero'
-        - 'option one'
-        - 'Option two'
-    dashboard:
-        index:
-            lazy: 'Lazy Load'
-            interpolation: '%{text} is interpolated'
+  dashboard:
+    index:
+      interpolation: "%{text} is interpolated"
+      lazy: Lazy Load
+  hello: Hello world
+  select:
+  - Option zero
+  - option one
+  - Option two
+  web_1:
+    error_name: Name can't be blank

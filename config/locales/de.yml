@@ -1,11 +1,13 @@
+---
 de:
-    hello: 'Hallo Welt'
-    web_1:
-        error_name: 'Der Name darf nicht leer sein'
-    select:
-        - 'Option Null'
-        - 'Option eins'
-        - 'Option zwei'
-    dashboard:
-        index:
-            lazy: 'Faule Ladung'
+  dashboard:
+    index:
+      interpolation: "%{text} wird interpoliert"
+      lazy: Faule Ladung
+  hello: Hallo Welt
+  select:
+  - Option Null
+  - Option eins
+  - Option zwei
+  web_1:
+    error_name: Der Name darf nicht leer sein
