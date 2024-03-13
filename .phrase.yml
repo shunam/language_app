@@ -1,0 +1,13 @@
+phrase:
+  access_token: caad2d213f3e793565ecfc1ce8b363e8f2fd14b2ebd30a2f11827af8cc3168d4
+  project_id: 889f45a740f4a683ee1de7140d1150c3
+  push:
+    sources:
+    - file: ./config/locales/<locale_name>.yml
+      params:
+        file_format: yml
+  pull:
+    targets:
+    - file: ./config/locales/<locale_name>.yml
+      params:
+        file_format: yml
